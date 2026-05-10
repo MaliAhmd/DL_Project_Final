@@ -1,0 +1,34 @@
+{
+  "Experiment 2: Optimizer Comparison": {
+    "Summary Statistics": {
+      "SGD (lr=0.01)": {
+        "Final Loss (mean)": -0.0019,
+        "Final Loss (std)": 0.0001,
+        "Best Loss": -0.0020
+      },
+      "Adam (lr=0.001)": {
+        "Final Loss (mean)": -0.0027,
+        "Final Loss (std)": 0.0,
+        "Best Loss": -0.0027
+      }
+    },
+    "Detailed Runs": {
+      "SGD": [
+        {"seed": 0, "final_loss": -0.0017},
+        {"seed": 1, "final_loss": -0.0019},
+        {"seed": 2, "final_loss": -0.0020}
+      ],
+      "Adam": [
+        {"seed": 0, "final_loss": -0.0024},
+        {"seed": 1, "final_loss": -0.0026},
+        {"seed": 2, "final_loss": -0.0026}
+      ]
+    },
+    "Statistical Test": {
+      "Comparison": "SGD vs Adam (final loss, n=3 seeds)",
+      "t-statistic": 7.5579,
+      "p-value": 0.001642,
+      "Significance": "Statistically significant difference (p < 0.05)"
+    }
+  }
+}

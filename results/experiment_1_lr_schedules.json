@@ -1,0 +1,17 @@
+{
+  "Experiment 1: Learning Rate Schedules": {
+    "Results": [
+      {"Schedule": "Fixed LR=0.01 (Paper)", "Final Loss": 0.036971, "Min Loss": 0.036971, "Iters to 1e-4": "N/A"},
+      {"Schedule": "Fixed LR=0.001", "Final Loss": 0.037818, "Min Loss": 0.037818, "Iters to 1e-4": "N/A"},
+      {"Schedule": "Fixed LR=0.1", "Final Loss": 0.009036, "Min Loss": 0.009036, "Iters to 1e-4": "N/A"},
+      {"Schedule": "Step Decay (÷2 every 50)", "Final Loss": 0.037498, "Min Loss": 0.037498, "Iters to 1e-4": "N/A"},
+      {"Schedule": "Cosine Annealing", "Final Loss": 0.037466, "Min Loss": 0.037466, "Iters to 1e-4": "N/A"}
+    ],
+    "Statistical Test": {
+      "Comparison": "Fixed LR=0.01 vs Cosine Annealing (last 50 iters)",
+      "t-statistic": -34.196,
+      "p-value": 0.0,
+      "Significance": "Statistically significant (p < 0.05)"
+    }
+  }
+}

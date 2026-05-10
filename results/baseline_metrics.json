@@ -1,0 +1,19 @@
+{
+  "Table 1: diffmpm Performance Benchmark": {
+    "Paper Claims": {
+      "TensorFlow": "48.90 ms (188x)",
+      "CUDA": "0.24 ms (0.92x)",
+      "DiffTaichi GPU": "0.26 ms (1.00x)"
+    },
+    "Setup": "2D simulation, 6.4K particles, NVIDIA GTX 1080 Ti"
+  },
+  "Table 2: Smoke Simulator Benchmark": {
+    "Paper Claims": {
+      "DiffTaichi GPU": "53 ms (24ms fwd + 29ms bwd)",
+      "PyTorch GPU": "711 ms",
+      "JAX GPU": "99 ms",
+      "Autograd CPU": "1504 ms"
+    },
+    "Setup": "110x110 grid, 100 time steps"
+  }
+}

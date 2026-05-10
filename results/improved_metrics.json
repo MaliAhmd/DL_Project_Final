@@ -1,0 +1,16 @@
+{
+  "Reproduced Benchmarks (Tesla T4)": {
+    "diffmpm_benchmark": {
+      "DiffTaichi GPU (yours)": "1.50 ms",
+      "Forward": "0.78 ms",
+      "Backward": "0.86 ms",
+      "Note": "Measured on NVIDIA Tesla T4. Timing differences expected vs paper's GTX 1080 Ti."
+    },
+    "Smoke Simulator": {
+      "Iter 0 Loss": 0.516,
+      "Iter 10 Loss": 0.238,
+      "Forward time (Iter 0)": "1899.56 ms",
+      "Forward time (Iter 10)": "109.99 ms"
+    }
+  }
+}
